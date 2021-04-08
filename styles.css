@@ -37,7 +37,7 @@ body{
 }
 
 #circle3 {
-    transform: rotate(180deg) translateY(75%);
+    transform: rotate(180deg) translateY(60%);
     float: right;
     right: 0;
 }
@@ -46,14 +46,13 @@ body{
     border-radius: 15px;
 }
 h2::after {
-    content: "";
-    margin-top: 5px;
-    margin-left: auto;
-    width: 150px;
-    height: 3px;
-    border-radius: 3px;
-    background-color: #ffb0a8;
     display: block;
+    content: "";
+    height: 3px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: auto;
+    background-color: #cf8c85;
 }
 
 img {
