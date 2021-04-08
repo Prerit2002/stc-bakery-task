@@ -46,11 +46,11 @@ body{
     height: 100%;
     border-radius: 15px;
 }
-h2::after {
+h3::after {
     display: block;
     content: "";
     height: 3px;
-    width: 150px;
+    width: 130px;
     margin-top: 10px;
     margin-left: auto;
     background-color: #cf8c85;
@@ -75,6 +75,7 @@ img {
 .dark {
     background-color: #4b4b4b;
     border: none;
+    color:white;
 }
 
 #home {
