@@ -14,17 +14,18 @@ body{
     position: absolute;
     z-index: 0;
 }
-#circle1 {
+#cir1 {
     float: left;
     transform: translateY(30%);
     width: 14vw;
 }
-#circle2 {
+#cir2 {
     position: absolute;
     transform: rotate(90deg);
     top: -20%;
     left: 50%;
     width:14vw;
+    height:50vh;
 }
 
 .navbar-toggler {
@@ -36,7 +37,7 @@ body{
     background-color: #fff3f1;
 }
 
-#circle3 {
+#cir3 {
     transform: rotate(180deg) translateY(60%);
     float: right;
     right: 0;
