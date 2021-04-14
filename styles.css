@@ -4,6 +4,7 @@ body{
 .cursive{
     font-style: italic;
 }
+
 .card {
     z-index: 100;
 }
@@ -17,24 +18,30 @@ body{
 #cir1 {
     float: left;
     transform: translateY(30%);
-    width: 14vw;
+    width:10vw;
+    height:40vh;
+}
+.head{
+    width:100%;
+    
 }
 #cir2 {
     position: absolute;
     transform: rotate(90deg);
     top: -20%;
-    left: 50%;
-    width:14vw;
+    left: 35%;
+    width:20vw;
     height:50vh;
+    z-index: 100;
 }
+
 
 .navbar-toggler {
     margin-left: auto !important;
 }
 .navbar {
     background: transparent;
-    transition: background 200ms;
-    background-color: #fff3f1;
+    transition: 2000ms;
 }
 
 #cir3 {
