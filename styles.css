@@ -42,6 +42,7 @@ body{
 .navbar {
     background: transparent;
     transition: 2000ms;
+    scroll-padding: 1rem 0 0 0;
 }
 
 #cir3 {
